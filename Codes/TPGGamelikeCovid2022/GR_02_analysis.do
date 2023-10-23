@@ -24,7 +24,7 @@ cap drop if DF==1
 							******************************
 
 			
-*| Control from major: students that have an economic degree or business degree
+*| Add a Control from major: students that have an economic degree or business degree
 
    *Modify values to make them comparable (i.e: "Gobierno" & "gobierno" as "GOBIERNO")
 	gen degree=survey4
