@@ -1,0 +1,42 @@
+/****************************************************************************
+*Master do file
+*Created: 13/05/2022
+*Last updated: 13/05/2022 by Paula Torres Higuera
+*PURPOSE: set relevant paths to call data, save data and store results for Covid project
+*IMPORTANT: Run every time you work on the project
+
+
+****************************************************************************/
+
+
+clear all
+set more off
+cap log close
+cls
+
+
+*** User path: (change accordingly) [Here goes to the dropbox folder]
+global user "/Users/`c(username)'/OneDrive - Universidad de los Andes/SeaSapoCovid/"
+
+*** Relevant paths:
+
+*Codes:
+global codes "$user/Codes/TPGGamelikeCovid2022"
+
+*Data
+global data "$user/Data"
+global modified "$data/Modified/TPGGamelikeCovid"
+global raw "$data/Raw/TPGGameLikeCovid"
+global sessions "$modified/Sessions"
+
+
+
+ 
+* Results - tables
+global results "$user/Results/TPGGamelikeCovid"
+global tables "$results/Tables"
+global graphs "$results/Graphs"
+
+
+
+

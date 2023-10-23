@@ -1,0 +1,68 @@
+\begin{table}[H]                                                                                                 \centering                                                                                                               \scalebox{0.8}{                                                                                                          \begin{threeparttable}                                                                            \caption{Linear estimation of the deduction points and expected deduction points at any given sent amount using Strategy Method}                 \begin{tabular}{lccccccc}                                                                                \toprule[0.5pt] \toprule[0.5pt]
+ & \multicolumn{2}{c}{Deduction Points} & \multicolumn{2}{c}{Expected Deduction Points}   \\   \cmidrule(l){2-3} \cmidrule(l){4-5} & (1) & (2) & (3) & (4)  \\ \midrule  
+Sent = 10           &      -3.595\sym{***}&      -3.595\sym{***}&      -4.854\sym{***}&      -4.854\sym{***}\\
+                    &     (0.977)         &     (0.981)         &     (0.793)         &     (0.796)         \\
+\addlinespace
+Sent = 20           &      -6.119\sym{***}&      -6.119\sym{***}&      -7.951\sym{***}&      -7.951\sym{***}\\
+                    &     (1.164)         &     (1.168)         &     (1.468)         &     (1.473)         \\
+\addlinespace
+Sent = 30           &      -9.500\sym{***}&      -9.500\sym{***}&     -10.927\sym{***}&     -10.927\sym{***}\\
+                    &     (1.403)         &     (1.408)         &     (1.869)         &     (1.875)         \\
+\addlinespace
+Sent = 40           &     -11.929\sym{***}&     -11.929\sym{***}&     -13.659\sym{***}&     -13.659\sym{***}\\
+                    &     (1.707)         &     (1.713)         &     (2.459)         &     (2.467)         \\
+\addlinespace
+Sent = 50           &     -13.738\sym{***}&     -13.738\sym{***}&     -16.244\sym{***}&     -16.244\sym{***}\\
+                    &     (2.013)         &     (2.020)         &     (2.956)         &     (2.966)         \\
+\addlinespace
+= ideology          &      -3.837         &      -3.716         &      -3.293         &      -3.872         \\
+                    &     (2.503)         &     (2.518)         &     (3.149)         &     (3.221)         \\
+\addlinespace
+= ideology * Sent = 10&       0.978         &       0.978         &       1.829         &       1.829         \\
+                    &     (1.165)         &     (1.169)         &     (1.464)         &     (1.469)         \\
+\addlinespace
+= ideology * Sent = 20&       1.779         &       1.779         &       0.537         &       0.537         \\
+                    &     (1.614)         &     (1.619)         &     (2.236)         &     (2.243)         \\
+\addlinespace
+= ideology * Sent = 30&       2.904         &       2.904         &       0.195         &       0.195         \\
+                    &     (1.952)         &     (1.959)         &     (2.957)         &     (2.968)         \\
+\addlinespace
+= ideology * Sent = 40&       3.460         &       3.460         &      -0.244         &      -0.244         \\
+                    &     (2.298)         &     (2.306)         &     (3.692)         &     (3.705)         \\
+\addlinespace
+= ideology * Sent = 50&       3.632         &       3.632         &       0.293         &       0.293         \\
+                    &     (2.570)         &     (2.578)         &     (4.356)         &     (4.371)         \\
+\addlinespace
+$\neq$ ideology     &      -4.559         &      -4.287         &      -3.816         &      -4.582         \\
+                    &     (2.851)         &     (2.723)         &     (2.858)         &     (2.879)         \\
+\addlinespace
+$\neq$ ideology * Sent = 10&       0.271         &       0.271         &       3.854\sym{**} &       3.854\sym{**} \\
+                    &     (1.420)         &     (1.425)         &     (1.646)         &     (1.652)         \\
+\addlinespace
+$\neq$ ideology * Sent = 20&       1.606         &       1.606         &       3.904         &       3.904         \\
+                    &     (1.791)         &     (1.798)         &     (2.455)         &     (2.464)         \\
+\addlinespace
+$\neq$ ideology * Sent = 30&       3.176         &       3.176         &       5.355\sym{*}  &       5.355\sym{*}  \\
+                    &     (2.180)         &     (2.187)         &     (3.127)         &     (3.137)         \\
+\addlinespace
+$\neq$ ideology * Sent = 40&       4.010         &       4.010         &       5.611         &       5.611         \\
+                    &     (2.562)         &     (2.571)         &     (3.967)         &     (3.981)         \\
+\addlinespace
+$\neq$ ideology * Sent = 50&       5.062         &       5.062         &       6.649         &       6.649         \\
+                    &     (3.072)         &     (3.082)         &     (4.724)         &     (4.740)         \\
+\addlinespace
+Constant            &      15.667\sym{***}&      16.204\sym{***}&      24.268\sym{***}&      27.809\sym{***}\\
+                    &     (2.049)         &     (2.633)         &     (1.825)         &     (3.237)         \\
+\midrule
+Controls            &                     &$\checkmark$         &                     &$\checkmark$         \\
+\midrule
+Mean Dep. Variable  &       6.901         &       6.901         &      14.524         &      14.524         \\
+R Squared           &       0.192         &       0.222         &       0.173         &       0.185         \\
+Observations        &         756         &         756         &         744         &         744         \\
+Participants        &         126         &         126         &         124         &         124         \\
+\midrule
+p-value H0: = ideology *Sent^{*}=0&       0.719         &       0.722         &       0.496         &       0.500         \\
+p-value H0: = ideology + = ideology *Sent^{*}=0&       0.693         &       0.717         &       0.617         &       0.457         \\
+p-value H0: $\neq$ ideology *Sent^{*}=0&       0.523         &       0.527         &       0.334         &       0.338         \\
+p-value H0: $\neq$ ideology + $\neq$ ideology *Sent^{*}=0&       0.511         &       0.506         &       0.849         &       0.876         \\
+\bottomrule[0.5pt]                                                                               \label{tab:table2}                                                                       \end{tabular}                                                                                                    \vspace{-13pt}                                                                                           \begin{tablenotes}[flushleft]{\setlength{\itemindent}{-3pt}}          \small                                                                                                               \item Notes: Robust standard errors clustered at the individual level in parentheses. Coefficients come from an ordinary least squares regression for the \textbf{Third Party} sample in columns (1) and (2), and for the \textbf{Receivers} sample in columns (3) and (4). \textbf{Neutral} treatment is the baseline of the analysis. Dependent variable is the amount of points a Third Party would deduct in columns (1) and (2), and the amount of points a Receivers expects a Third Party would deduct in columns (3) and (4). Controls include whether subject is female, Semester, socio-economic strata (from 1 to 6), whether studying an economics related major, and a rationality measure.          \end{tablenotes}                                                                                         \end{threeparttable}                                                                             }                                                                                                                        \end{table}
